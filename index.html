@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/assets/libs/bootstrap/css/bootstrap.rtl.min.css">
+
+    <!--load fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="assets/css/sidebars.css">
+    <link rel="stylesheet" href="assets/css/headers.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="d-flex flex-column  p-3 sidebar" style="width: 280px;">
+                <a href="/" class="d-flex justify-content-center align-items-center my-4">
+                    <img src="assets/image/logo.svg" alt="xfit kids" width="200">
+                </a>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#home"/>
+                            </svg>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#speedometer2"/>
+                            </svg>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#table"/>
+                            </svg>
+                            Orders
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#grid"/>
+                            </svg>
+                            Products
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#people-circle"/>
+                            </svg>
+                            Customers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="p-3 mb-3 main-header">
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <span class="mt-2 title">Welcome to xfitkids</span>
+                        <div class="d-flex">
+                            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                                    <use xlink:href="#bootstrap"/>
+                                </svg>
+                            </a>
+                            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                            </form>
+                            <i class="bi bi-bell position-relative">
+                                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"></span>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="widget">
+                        <div class="widget-icon">
+                            <img src="assets/image/icon-01.svg" alt="icon-01">
+                        </div>
+                        <div class="widget-content">
+                            <h2>534</h2>
+                            <h6>Coaches</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="widget">
+                        <div class="widget-icon">
+                            <img src="assets/image/icon-02.svg" alt="icon-02" class="mt-1">
+                        </div>
+                        <div class="widget-content">
+                            <h2>9.7k</h2>
+                            <h6>Kids</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="widget">
+                        <div class="widget-icon">
+                            <img src="assets/image/icon-03.svg" alt="icon-03">
+                        </div>
+                        <div class="widget-content">
+                            <h2>50 M</h2>
+                            <h6>Revenue</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-5">
+                    <div class="widget container flex-column">
+                        <div class="widget-head my-2">
+                            <span class="widget-title">Today's Status</span>
+                        </div>
+                        <div class="widget-content m-0">
+                            <div class="row">
+                                <div class="col item">
+                                    <h2>8.7K</h2>
+                                    <h6>Total Present</h6>
+                                </div>
+                                <div class="col item">
+                                    <h2>99</h2>
+                                    <h6>Registrations</h6>
+                                </div>
+                                <div class="col item">
+                                    <h2>30</h2>
+                                    <h6>Totals Session</h6>
+                                </div>
+                            </div>
+                            <div class="row today-status">
+                                <div class="col d-flex align-items-center justify-content-center">
+                                    <span class="status-label">Today’s WOD</span>
+                                </div>
+                                <div class="col flex-column d-flex align-items-center justify-content-center">
+                                    <h2>Filthy Fifty</h2>
+                                    <h6>Mecton</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="widget container">
+                        <div class="widget-head my-2">
+                            <span class="widget-title">Batch Performance</span>
+                            <span class="widget-info">All information in percentage(%)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--load scripts-->
+
+<!--bootstrap-->
+<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!--sidebar-->
+<script src="assets/js/sidebars.js"></script>
+
+</body>
+</html>
